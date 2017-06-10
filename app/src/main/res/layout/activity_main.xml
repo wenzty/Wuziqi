@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffB9"
+    tools:context="com.example.wenzty.wuziqi.MainActivity">
+
+    <com.example.wenzty.wuziqi.WuziqiView
+        android:id="@+id/wuziqi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="再来一局"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
